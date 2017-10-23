@@ -1,0 +1,4 @@
+# init.lua
+Can use /gcreload = Для использования /gcreload
+reload give_cost settings = перезагрузить конфиг
+settings config reloaded = конфиг перезагружен
