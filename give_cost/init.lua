@@ -56,6 +56,7 @@ minetest.register_on_placenode(function(pos, newnode, placer, oldnode, itemstack
 end)
 
 minetest.register_on_chat_message(function(name, message)
+    if not minetest.player_exists(name) or not minetest.get_player_by_name(name) then return end
     coins.add_coins(name, settings.events.chat * boost)
 end)
 
