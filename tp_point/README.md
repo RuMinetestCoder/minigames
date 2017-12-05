@@ -6,8 +6,8 @@ Add teleport positions. Support give and take cost, sending message to player. G
 
 Need *tppoint* priv.
 
-* **/tppcreate <name> <give> <take> <mess?>**
-* or **/tppedit <name>**
+* **/tppcreate [name] [give] [take] [mess?]**
+* or **/tppedit [name]**
 * Punch node.
 * **/tppfrom** - add from position (teleport point)
 * Stand on the position.
@@ -16,7 +16,7 @@ Need *tppoint* priv.
 
 Other commands:
 
-* **/tppdel <name>**
+* **/tppdel [name]**
 * **/tppreload** - for reloading data from config file
 * **/tppoints** - show list names points
 

@@ -16,14 +16,14 @@ PvP arena minigame for minetest. Protect arena, there are lobby and spectate. Th
 Commands:
 
 * **/pa list** - show list available arenas
-* **/pa join <arena>** - join to lobby
-* **/pa spec <arena>** - watch
+* **/pa join [arena]** - join to lobby
+* **/pa spec [arena]** - watch
 * **/pa leave** - leaving, if game not started - return coins cost
 * **/pa start** - vote start
 
 ## How to create arena?
 
-* **/pacreate <arena>**
+* **/pacreate [arena]**
 * Punch node (pos 1 arena region)
 * **/papos1**
 * Punch node (pos 2 arena region)
@@ -38,20 +38,20 @@ Commands:
 * **/paspec (save spectate position)**
 * Stand on the position.
 * **/pagame (save game position)**
-* **/pasettings <min_p> <max_p> <after> <max_time> <cost>**
+* **/pasettings [min_p] [max_p] [after] [max_time] [cost]**
 * **/pakit name (optional)** - add kit for random, you inventory
 * **/pakits** - show kit names
 * **/padone**
 
 Done! Editing:
 
-* **/paedit <arena>**
+* **/paedit [arena]**
 * ... editing ... (read above)
 * **/padone**
 
 For removing:
 
-* **/paremove <arena>**
+* **/paremove [arena]**
 
 For reload config:
 
@@ -59,9 +59,9 @@ For reload config:
 
 ## Moder commands
 
-* **/pakick <player>** - kick player from arena
-* **/pastop <arena>** - force stop game
-* **/pastart <arena>** - force start game
+* **/pakick [player]** - kick player from arena
+* **/pastop [arena]** - force stop game
+* **/pastart [arena]** - force start game
 
 ## Privs
 

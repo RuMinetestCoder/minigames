@@ -17,14 +17,14 @@ Spleef minigame for minetest. Auto regen floor, protect arena, there are lobby a
 Commands:
 
 * **/spleef list** - show list available arenas
-* **/spleef join <arena>** - join to lobby
-* **/spleef spec <arena>** - watch
+* **/spleef join [arena]** - join to lobby
+* **/spleef spec [arena]** - watch
 * **/spleef leave** - leaving, if game not started - return coins cost
 * **/spleef start** - vote start
 
 ## How to create arena?
 
-* **/spcreate <arena>**
+* **/spcreate [arena]**
 * Punch node (pos 1 arena region)
 * **/sppos1**
 * Punch node (pos 2 arena region)
@@ -39,19 +39,19 @@ Commands:
 * **/spspec (save spectate position)**
 * Stand on the position.
 * **/spgame (save game position)**
-* **/spsettings <min_p> <max_p> <after> <max_time> <cost>**
+* **/spsettings [min_p] [max_p] [after] [max_time] [cost]**
 * **/sptool itemstring (optional)**
 * **/spdone**
 
 Done! Editing:
 
-* **/spedit <arena>**
+* **/spedit [arena]**
 * ... editing ... (read above)
 * **/spdone**
 
 For removing:
 
-* **/spremove <arena>**
+* **/spremove [arena]**
 
 For reload config:
 
@@ -59,9 +59,9 @@ For reload config:
 
 ## Moder commands
 
-* **/spkick <player>** - kick player from arena
-* **/spstop <arena>** - force stop game
-* **/spstart <arena>** - force start game
+* **/spkick [player]** - kick player from arena
+* **/spstop [arena]** - force stop game
+* **/spstart [arena]** - force start game
 
 ## Privs
 
@@ -71,7 +71,7 @@ For reload config:
 
 ## Settings for minetest.conf
 
-* **spleef.tool = <itemstring>** - default item (optional, defaut - diamond shovel)
+* **spleef.tool = [itemstring]** - default item (optional, defaut - diamond shovel)
 
 ## Depends
 

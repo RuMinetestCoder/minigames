@@ -8,3 +8,5 @@ Automatic arenas and other. List:
 * PvP arena
 * TP Points
 * Give Cost
+
+Read all readme's in mod folders for more information.
